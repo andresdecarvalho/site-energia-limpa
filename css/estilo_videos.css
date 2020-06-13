@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+article#radio{
+	background:url("../imagens/notebook.png") no-repeat;
+	background-size: 750px 560px;
+	margin-top: 50px;
+	margin-left: 310px;
+	width: 750;
+	height: 560px;
+}
+
+audio#musica{
+	display:block;
+	position:relative;
+	width:300px;
+	top:490px;
+	left:575px;
+}
+
+iframe#filme{
+	display:block;
+	position:relative;
+	width:455px;
+	height: 350px;
+	top: 27px;
+	left:138px;
+}
+

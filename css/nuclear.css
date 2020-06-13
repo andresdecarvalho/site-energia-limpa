@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Esse body é o que será colocado para os outros bodys*/
+body{
+	background: url("../imagens/campo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.visitar{
+    padding-bottom: 10px;
+}
+
+p h1{
+    color: red;
+}
+
+div.card div.card-body div.col-sm-4{
+    text-align: center;
+}
+
+
+.sketchfab-embed-wrapper{
+    text-align: center;
+}
+
+.card1{
+    padding-top: 5px;
+}

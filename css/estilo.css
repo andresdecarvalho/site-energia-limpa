@@ -1,0 +1,315 @@
+﻿@charset "UTF-8";
+
+article.console{
+	margin:10px 20px;
+	float:left;
+	width:29%; /* 300px */
+}
+
+.boards{
+	opacity: 0.8;
+}
+
+.boards p{
+	color:black;
+}
+
+.btn{
+	text-align: center;
+}
+
+body{
+	background: url("../imagens/campo.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.card{
+	margin-left: 10px;
+	margin-top: 10px;
+	border: none;
+	box-shadow: 0px 0px 10px black;
+}
+
+.card-nuclear{
+	opacity: 0.6;
+}
+
+.card-text{
+	color:Black;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.container-fluid{
+	box-shadow: 0px 0px 10px black;
+}
+
+div#interface{
+	max-width:1200px;
+	margin:-8px auto 0px auto;
+	background:#000;
+	}
+
+.dropdown-menu{
+	background:rgb(52, 58, 64);
+	
+}
+
+#d-block{
+	box-shadow: 0px 0px 10px black;
+}
+
+.dropdown-item{
+	color:white;
+}
+
+footer p {
+	text-align:center;
+	font-family:verdana;
+	font-size:1.1vw;
+	padding:0px 15px 0px 15px;
+	color: white;
+
+}
+
+footer#rodape{
+	clear:both; /* sair da divisão */
+	border-top:2px solid #DAA520;
+	padding:5px;
+}
+
+footer#rodape p{
+	text-align:center;
+	color:gold;
+	font-family:verdana;
+	font-size:1.3vw;
+	text-decoration:none;
+}
+
+footer#rodape a{
+	text-decoration:none;
+}
+
+#foto{
+	color: white;
+	text-shadow: 0px 0px 10px black;
+}
+
+/*.figure-img{
+	box-shadow: 0px 0px 10px black;
+}*/
+
+h1{
+	text-align:center;
+	color:blue;
+	font-family:verdana;
+	font-size:1.5vw;
+}
+
+h2{
+	color: white;
+	/*text-shadow: 0px 0px 10px black;*/
+}
+
+h3{
+	margin:3px;
+	text-align:center;
+	color:#000;
+	font-family:verdana;
+	font-size:1.3vw;
+	
+}
+
+h4{
+	text-align:center;
+	color:white;
+	font-family:verdana;
+	font-size:1.5vw;
+	margin:2px;
+	padding:5px;
+}
+
+h5{
+	text-align:center;
+	color:black;
+}
+
+h6{
+	text-align:center;
+	color:white;
+	font-family:verdana;
+	font-size:1.0vw;
+	margin:2px;
+	padding:5px;
+}
+
+header#topo{
+	height:130px;	
+}
+
+hr.line{
+	border: 1px solid rgb(52, 58, 64);
+	color:white;
+}
+
+img#anime1, img#anime2{
+	max-width:100%;
+	height:auto;
+}
+
+#letter{
+	color: black;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:0.9vw;
+}
+
+.mapa{
+	color: black;
+}
+
+#mapa-index{
+	color: white;
+}
+
+.mapa-site{
+	color: black;
+}
+
+nav#menu{
+	display:block;
+	position:absolute;
+	width:66%;
+	margin-left:18%; /* 800px */
+	top:96px;
+	z-index:1
+	}
+	
+nav#menu ul{
+	text-decoration:none; /* tirar o sublinhado */
+	list-style:none; /* tirar os marcadores */
+	font:1.2vw verdana;
+	margin:0px;
+	padding:0px;
+}
+
+nav#menu li{
+	float:left;
+	color:white;
+}
+
+nav#menu li a{
+	text-decoration:none;
+	background:#000;
+	margin:0px;
+	padding: 5px 25px;
+	display:block;
+	color:white;
+}
+
+nav#menu li a:hover{
+	background:white;
+	color:#000;
+	text-decoration:underline;
+}
+/* ================ SUBMENU ================= */
+nav#menu li ul{
+	display:none;
+	font-size:1.0vw;
+	z-index:2;
+}
+
+nav#menu li:hover ul{
+	display:block;
+	position:relative;
+}
+
+nav#menu li:hover li{
+	float:none;
+}
+
+.navbar-nav{
+	color:white;
+}
+
+.p{
+	text-align:center;
+	font-family:verdana;
+	font-size:1.1vw;
+	padding:0px 15px 0px 15px;
+	color:black(255, 255, 255);
+	text-justify: auto;
+}
+
+.p-3{
+	box-shadow: 0px 0px 10px black;
+}
+
+section#banner-anime{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	height:350px;
+	margin:0px;
+}
+
+section#banner-anime img{
+	position:absolute;
+	transition-property:opacity;
+	transition-duration:1s;
+	transition-timing-function:linear;
+	}
+
+section#banner-anime #anime1, section#banner-anime:hover #anime2{
+	opacity:1;
+}
+
+section#banner-anime:hover #anime1, section#banner-anime #anime2{
+	opacity:0;
+}
+
+section#chamada{
+	position:relative;
+	max-width:1200px;
+	height:auto;
+	left:1.5%;
+}
+
+span a{
+	color:gold;
+	font-size:1.2vw;
+	text-decoration:none;	
+}
+span a:hover{
+	color:red;
+	font-size:1.vw;	
+}
+
+#subtitle{
+	color: white;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif; 
+	text-shadow: 0px 0px 10px black;
+	font-size:1.0vw;
+}
+
+.video-eolica{
+	color: black;
+}
+
+#video-solar{
+	margin-top: 180px;
+	padding-left: 10px;
+	padding-right: 10px;
+}

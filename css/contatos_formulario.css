@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+h2{
+	color: white;
+}
+
+form{
+	width: 1000px;
+	margin:auto;
+}
+
+.textoForm{
+	text-align:center;
+}
+
+input, textarea{
+	font-family:verdana;
+	font-size:13px;
+}
+
+legend{
+	text-align:center;
+	color: white;
+	font-weight:bold;
+	font-size:13pt;
+	font-family:verdana;
+}
+
+.explicacao{
+	color: white;
+	padding-left: 30px;
+}
+
+.inserir{
+	color: white;
+}
+
+fieldset#sexo{
+	width: 180px;
+	font-family:verdana;
+	font-size:13px;
+	color:blue;
+}
+
+fieldset#usuario{
+	background:url("../imagens/icontato.png") no-repeat 95% 95%;
+	}
+	
+fieldset#usuario p{
+	text-align:justify;
+	color: red;
+}
+	
+fieldset#endereco{
+	background:url("../imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+
+fieldset#endereco p{
+	text-align:justify;
+	color: red;
+}
+
+fieldset#mensagem{
+	background:url("../imagens/icone-mensagem.png") no-repeat 95% 95%
+}
+
+fieldset#mensagem p{
+	text-align:center;
+	color: black;
+}
+
+p{
+	font-family:arial, sans-serif;
+	text-align:justify;
+	font-size:15px;
+	color: rgba(0,0,0,1);
+	margin:10px 10px 10px 10px;
+	text-indent: 15px;
+}
+
+textarea#cMsg{
+	margin-left: -40px;
+}
